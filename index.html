@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ringterio</title>
+    <!-- favicon-link -->
+    <link rel="shortcut icon" href="./assets/Rectangle.png" type="image/x-icon">
     <!-- font-awesome-CDN -->
     <script src="https://kit.fontawesome.com/0516d8b0ec.js" crossorigin="anonymous"></script>
 <!-- google-font-CDN -->
@@ -17,24 +19,95 @@
 <script>
     tailwind.config = {
       theme: {
-        'font-Family' :{
-            Manrope : 'Manrope',
+        fontFamily:{
+            'Manrope' : ['Manrope'],
         },
         extend: {
           colors: {
             clifford: '#da373d',
             highlighter: '#ABEF5F',
             primary: '#212121',
-            dark1: '#494949',
-            dar2:'#737373'
+            dark1 : '#494949',
+            dark2 :'#737373',
           }
         }
       }
     }
   </script>
 </head>
-<body class="font-Manrope max-w-[1440px] mx-auto border-2 border-amber-700 h-96" >
-    <h1>Initialization</h1>
+<body class="font-Manrope max-w-[1440px] mx-auto border-2 border-amber-700" >
+<!-- header-section- -->
+<header class="max-w-full">
+    <!-- nav-container -->
+    <div class="max-w-[1170px] mx-auto">
+        <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="navbar-start">
+                <!-- logo-container -->
+                <div class="flex items-center gap-2">
+                    <div class="w-7  bg-highlighter rounded-full flex items-center justify-center ">
+                        <i class="fa-sharp fa-solid fa-arrow-up text-2xl  rotate-45 "></i>
+                    </div>
+                    <div>
+                        <a class=" md:text-4xl text-2xl font-extrabold">Rinterio</a>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- nav-link-for-lg -->
+            <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Home</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Services</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Portfolio</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Blogs</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Contact Us</a></li>
+            </ul>
+            </div>
+            <div class="navbar-end ">
+            <!-- button-container -->
+            <div class="flex items-center justify-between ">
+                <div class="hidden md:block space-x-4 mx-2">
+                    <i class="fa-solid fa-magnifying-glass text-xl bg-white p-2"></i>
+                    <i class="fa-solid fa-cart-shopping text-xl bg-white p-2"></i>
+            </div>
+            <div class="hidden md:block ">
+                <a class="btn  text-lg font-extrabold bg-highlighter ">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
+            </div>
+            </div>
+            <!-- svg-container -->
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+                </div>
+                <!-- nav-link-for-sm -->
+                <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow top-5 right-0">
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Home</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Services</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Portfolio</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Blogs</a></li>
+                <li class="text-dark2 font-eaxtbold hover:text-dark1"><a>Contact Us</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+</header>
     
 </body>
 </html>
