@@ -45,9 +45,10 @@
     <div class="max-w-[1170px] mx-auto">
         <!-- navbar -->
     <nav>
-        <div class="navbar">
-            <div class="navbar-start">
-                <!-- logo-container -->
+        <div class="navbar flex items-center justify-between">
+            <!-- logo-container -->
+            <div>
+                <!-- logo-content -->
                 <div class="flex items-center gap-2">
                     <div class="w-7  bg-highlighter rounded-full flex items-center justify-center ">
                         <i class="fa-sharp fa-solid fa-arrow-up text-2xl  rotate-45 "></i>
@@ -58,7 +59,7 @@
                 </div>
             </div>
             <!-- nav-link-for-lg -->
-            <div class="navbar-center hidden md:hidden lg:flex">
+            <div class="hidden md:hidden lg:flex">
             <ul class="menu menu-horizontal ">
                 <li class="text-dark2 text-base font-eaxtbold hover:text-dark1"><a>Home</a></li>
                 <li class="text-dark2 text-base font-eaxtbold hover:text-dark1"><a>Services</a></li>
@@ -67,15 +68,17 @@
                 <li class="text-dark2 text-base font-eaxtbold hover:text-dark1"><a>Contact Us</a></li>
             </ul>
             </div>
-            <div class="navbar-end ">
-            <!-- button-container -->
+            <!-- button -container -->
+            <div class="flex items-centerspace-x-10">
+            <!-- icon-container -->
             <div class="flex items-center justify-between ">
                 <div class="hidden md:block  mx-2">
                     <i class="fa-solid fa-magnifying-glass text-xl bg-white p-2"></i>
                     <i class="fa-solid fa-cart-shopping text-xl bg-white p-2"></i>
             </div>
+            <!-- button-->
             <div class="hidden md:block ">
-                <a class="btn  text-lg font-extrabold bg-highlighter ">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
+                <a class="btn  text-lg font-extrabold bg-highlighter rounded-2xl">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
             </div>
             </div>
             <!-- svg-container -->
@@ -125,7 +128,7 @@
                 <p class=" md:w-2/3 mx-auto py-6 text-sm md:text-base text-dark2 font-semibold">
                     This barn house features a striking design with clean lines, large windows, and a modern rustic aesthetic, blending elegance and simplicity
                 </p>
-                <a class="btn  text-lg font-extrabold bg-[#ABEF5F80] hover:bg-highlighter ">View Details<i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-dark1 bg-highlighter rotate-45 rounded-full"></i> </a>
+                <a class="btn  text-lg font-extrabold bg-[#ABEF5F80] hover:bg-highlighter rounded-3xl">View Details<i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-dark1 bg-highlighter rotate-45 rounded-full"></i> </a>
             </div>
             </div>
         </div>
@@ -149,9 +152,11 @@
                 src="./assets/Rectangle.png" />
             <div class="flex flex-col  md:items-center lg:items-start md:text-center lg:text-start p-2 space-y-4">
                 <!-- text-info -->
-                <a class=" bg-white text-dark1 font-bold my-3 px-3 rounded-lg" href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> About Us</a>
-                <h3 class="text-[#212121] text-2xl md:text-5xl font-bold">We design thoughtful,<br> liveable spaces</h3>
-                <p class="font-medium md:font-semibold text-dark2 text-base">
+                <div class="w-full text-center lg:text-start">
+                    <a class=" bg-white text-dark1 font-bold my-3 px-3 rounded-2xl w-fit " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> About Us</a>
+                </div>
+                <h3 class="md:w-3/4 lg:w-full w-full text-[#212121] text-2xl md:text-5xl font-bold text-center lg:text-start">We design thoughtful, liveable spaces</h3>
+                <p class="font-medium md:font-semibold text-dark2 text-base text-center lg:text-start">
                     We design thoughtful, livable spaces that blend functionality with comfort, creating environments that enhance everyday</p>
                 <!-- section-card-container -->
                 <div class="flex flex-col md:flex-row lg:flex-col  gap-6 ">
@@ -252,7 +257,7 @@
         <div class="max-w-[1170px] mx-auto my-4">
                     <!-- section-info -->
         <div class="p-4 flex flex-col items-center justify-around gap-4 ">
-            <a class=" bg-white text-dark1 font-bold my-3 px-3 rounded-lg " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> How we work</a>
+            <a class=" bg-white text-dark1 font-bold my-3 px-3 rounded-2xl" href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> How we work</a>
                 <h3 class="text-[#212121] text-2xl md:text-5xl font-bold">Our Works Process</h3>
                 <p class="font-medium md:font-semibold text-base text-dark2 w-11/12 md:w-1/2 text-center">
                     The barn house enchants with its mix of traditional warmth and contemporary style, showcasing exposed beams and minimalist finishes.</p>
@@ -260,7 +265,7 @@
         <!-- section-card-container -->
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center p-4 my-6 ">
             <!-- section-card-1 -->
-            <div class="bg-[#E7C1D3] max-w-72 max-h-56 p-1 md:p-2 rounded-lg">
+            <div class="bg-[#E7C1D3] max-w-72 max-h-56 p-1 md:p-2 rounded-2xl">
                 <div class="stat flex flex-col space-y-1">
                     <div>
                         <img src="./assets/concept.png" alt="concept-image">
@@ -271,7 +276,7 @@
             
         </div>
         <!-- section-card-2 -->
-        <div class="bg-[#EFDA6E] max-w-72 max-h-56 p-1 md:p-2 rounded-lg">
+        <div class="bg-[#EFDA6E] max-w-72 max-h-56 p-1 md:p-2 rounded-2xl">
             <div class="stat flex flex-col space-y-1">
                 <div>
                     <img src="./assets/flow-chart.png" alt="concept-image">
@@ -282,7 +287,7 @@
         
     </div>
         <!-- section-card-3 -->
-        <div class="bg-[#A4DAC3] max-w-72 max-h-56 p-1 md:p-2 rounded-lg">
+        <div class="bg-[#A4DAC3] max-w-72 max-h-56 p-1 md:p-2 rounded-2xl">
             <div class="stat flex flex-col space-y-1">
                 <div>
                     <img src="./assets/vision.png" alt="concept-image">
@@ -293,7 +298,7 @@
         
     </div>
         <!-- section-card-4 -->
-        <div class="bg-[#77AAEA] max-w-72 max-h-56 p-1 md:p-2 rounded-lg">
+        <div class="bg-[#77AAEA] max-w-72 max-h-56 p-1 md:p-2 rounded-2xl">
             <div class="stat flex flex-col space-y-1">
                 <div>
                     <img src="./assets/budget-planning.png" alt="concept-image">
@@ -311,7 +316,7 @@
     <section class="max-w-[1170px] mx-auto my-6 px-4">
         <!-- section-info-container -->
         <div class="p-4 flex flex-col items-center justify-around gap-4 ">
-            <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-lg " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Explore our Latest works</a>
+            <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-2xl " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Explore our Latest works</a>
                 <h3 class="text-[#212121] text-2xl md:text-5xl font-bold">Our Latest Portfolio</h3>
                 <p class="font-medium md:font-semibold text-base text-dark2 w-11/12 md:w-1/2 text-center">
                     Blending country coziness with urban flair, this home features a mix of aged wood and sleek, modern details.</p>
@@ -363,12 +368,12 @@
         </div>
     </section>
     <!-- Articles-section[optional] -->
-    <section class=" bg-[#F4F4F4]  my-6">
+    <section class=" bg-[#F4F4F4] my-6">
         <!-- section-container -->
         <div class="max-w-[1170px] mx-auto  px-4">
             <!-- section-info-container -->
             <div class="p-4 flex flex-col items-center justify-around gap-4">
-                <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-lg " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Rinterio News</a>
+                <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-2xl " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Rinterio News</a>
                     <h3 class="text-[#212121] text-2xl md:text-5xl font-bold">Read Our Articles and News</h3>
                     <p class="font-medium md:font-semibold text-base text-dark2 w-11/12 md:w-1/2 text-center">
                         Stay informed with our curated articles and news, offering insights and updates on the latest trends and developments.</p>
@@ -499,7 +504,7 @@
             <!-- button-container -->
             <div class="w-full  p-4 space-x-4 flex flex-col md:flex-row items-center justify-center gap-4">
                 <div>
-                    <a class="btn  text-lg font-extrabold bg-highlighter ">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
+                    <a class="btn  text-lg font-extrabold bg-highlighter rounded-2xl">Book Now <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
                 </div>
             </div>
         </div>
@@ -510,7 +515,7 @@
         <div class="max-w-[980px] mx-auto my-6 px-4 ">
             <!-- section-info-container -->
         <div class="p-4 flex flex-col items-center justify-around gap-4">
-            <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-lg " href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Let’s Connect</a>
+            <a class="bg-[#ABEF5F33] text-dark1 font-bold my-2 p-3 rounded-2xl" href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i> Let’s Connect</a>
                 <h3 class="text-[#212121] text-2xl md:text-5xl font-bold text-center">Let’s Discuss Next Project</h3>
                 <p class="font-medium md:font-semibold text-base text-dark2 w-11/12 md:w-1/2 text-center">
                     Plan your next project by discussing ideas, goals, and strategies to achieve the desired outcome effectively</p>
@@ -551,8 +556,9 @@
                 placeholder="Write your message here"
                 class="textarea textarea-bordered textarea-lg w-full h-full rounded-xl"></textarea>
             </div>
+            <!-- button-container -->
             <div class="w-full md:col-span-2">
-                <a class="btn  text-lg font-extrabold bg-highlighter w-full hover:bg-white hover:border hover:shadow-xl ">Send Mail<i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1 rotate-45 rounded-full"></i> </a>
+                <a class="btn  text-lg font-extrabold bg-highlighter w-full rounded-3xl hover:bg-dark2 hover:text-highlighter hover:border hover:shadow-2xl ">Send Mail<i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1 rotate-45 rounded-full"></i> </a>
             </div>
         </div>
         </div>
@@ -586,8 +592,9 @@
                 </ul>
             </div>
         </div>
-        <div class="">
-            <a class="btn  text-lg font-extrabold bg-highlighter ">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
+        <!-- button-container -->
+        <div>
+            <a class="btn  text-lg font-extrabold bg-highlighter rounded-3xl">Book Consult <i class="fa-sharp fa-solid fa-arrow-up w-7 h-7 text-2xl  text-white bg-dark1  rotate-45 rounded-full"></i> </a>
         </div>
         </nav>
     </div>
